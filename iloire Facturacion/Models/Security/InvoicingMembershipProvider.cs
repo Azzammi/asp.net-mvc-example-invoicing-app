@@ -159,7 +159,7 @@ namespace  iloire_Facturacion.Models.Security {
         public override bool ValidateUser(string username, string password)
         {
             InvoiceDB db = new InvoiceDB();
-            var user = (from u in db.Users
+            var user = (from u in db.Users 
                         where u.Login == username && u.Password == password
                         select u).FirstOrDefault();
 

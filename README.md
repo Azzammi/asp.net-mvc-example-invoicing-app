@@ -66,6 +66,7 @@
  * NuGet packages are included. If you have any problem please follow [this instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config)
  * By default the project is using SQL Server Compact database. You can easily change it to use SQL Server Express or above by modifying web.config file (connectionStrings section).
  * By using Code First and EF 4.1 the database will be recreated when you first run the project.
+ * If you use EF 4.3 Or Earlier You must drop your database first.
 
 ### Altering connectionStrings section 
 
